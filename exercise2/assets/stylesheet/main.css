@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css starts here*/
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	max-width: 990px;
+	margin:0 auto;
+	padding: 0 30px;
+}
+header{
+	background-color: #100E17;
+	line-height: 30px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.headername{
+	font-size: 30px;
+	color: white;
+	font-weight: 700;
+	float: left;
+}
+.navmenu{
+	float: right;
+}
+.navmenu  a{
+	margin-left: 15px;
+	text-decoration: none;
+	vertical-align: center;
+	color: white;
+	font-weight : bold;
+}
+section{
+	background-color: #F7F7F7;
+	height: calc(100vh - 100px);
+}
+.firstcolumn{
+	width: 60%;
+	float: left;
+	margin-top: 5%;
+}
+.firstcolumn h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+.firstcolumn p{
+	line-height: 1.5;
+	font-size: 15px;
+	color: black;
+	margin-top: 2%;
+}
+.image{
+	width:30%;
+	margin-left: 10%;
+}
+img {
+	height: auto;
+	width: 100%;
+}
+.parent:before, .parent:after {
+    content: "";
+    display: table;
+}
+  .parent:after {
+    clear: both;
+}
+footer{
+	background-color: #151514;
+	color: white;
+	line-height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+/*	margin-top: 30%;
+*/}
+
