@@ -1,5 +1,5 @@
-## Project 02
+## Project 01
 
-1. Find the layout as well as all the assets for the project 02 in the link given below.
+1. Create a page according to the layout shown in the link below.
 
-https://drive.google.com/open?id=1r2wfbPzUWXkBeDblVRar3_QFd-avbZNr
+https://drive.google.com/open?id=1DH3bH1395WGVL1wzYw5VU-kvarnjAjJs
